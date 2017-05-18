@@ -1,0 +1,17 @@
+path: 'C:\\Users\\stephen\\Documents\\GitHub\\roguegame'
+profiles:
+  local-author:
+    args:
+      - 'compiler:compile'
+      - 'install'
+      - '-e'
+    properties:
+      skipTests: true
+      version: 1.8
+  default:
+    args:
+      - 'compiler:compile'
+      - 'install'
+      - '-e'
+    properties:
+      skipTests: true
