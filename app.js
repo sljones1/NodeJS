@@ -11,7 +11,6 @@ if(!profile) {
     console.error("No profile specified, using default");
     profile = "default";
 }
-console.log(program.profile);
 const profileObject = doc.profiles[profile];
 const props = processArgs(profileObject);
 
@@ -32,7 +31,7 @@ function processMaven(args, properties, path) {
 }
 
 function processArgs(profile) {
-    let args = profile.properties;
+    const args = profile.properties;
     if(profile != 'default') {
         args['profile'] = profile;
     }

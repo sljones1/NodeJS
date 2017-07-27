@@ -1,8 +1,8 @@
-path: 'C:\\Users\\stephen\\Documents\\GitHub\\roguegame'
+path: ''
 profiles:
   local-author:
     args:
-      - 'compiler:compile'
+      - 'clean'
       - 'install'
       - '-e'
     properties:
